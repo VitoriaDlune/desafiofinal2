@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.iconHeader {
+
+  width: 30px;
+}
+
+header figure {
+
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+
+
+}
+
+.iconHeader {
+  margin-top: 25px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.cards {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.cards div {
+
+  width: 25vw;
+  margin-top: 2%;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  color: green;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+}
+
+.cards img {
+  width: 100%;
+}
+
+footer section {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+footer div ul {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-left: 70px;
+  list-style: none;
+
+  margin-bottom: 20px;
+  margin-top: 80px;
+
+}
+
+
+.Newsletter {
+
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.todos{
+  margin-top: 20px;
+}
+input {
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: -3px;
+}
+
+button {
+  color: white;
+  background-color: #5ca720;
+  border: 0 solid #5ca720;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.iconsMarca {
+  width: 30px;
+
+}
+
+.iconPayPal {
+  width: 20px;
+}
+
+.iconVisa {
+  width: 50px;
+  margin-bottom: 3px;
+}
+
+.redes {
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bancos {
+  margin-right: 40px;
+}
+
+@media (max-width: 400px) {
+  .cards div {
+    width: 40vw;
+  }
+
+  header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  header figure {
+
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+
+  }
+
+  .iconHeader {
+
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  h3 figure {
+    width: 1px;
+  }
+
+  .menuFooter {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -180px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .buttonFooter {
+    width: 350px;
+    height: 40px;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .redes {
+    margin-left: 1px;
+  }
+
+  .bancos {
+    margin-right: 2px;
+  }
+}
